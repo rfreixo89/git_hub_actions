@@ -12,7 +12,7 @@ jobs:
          ls
      - name: Simples JS Actions
        id: greet
-       uses: actions/hello-world-javascript-action@v1
+       uses: actions/hello-world-javascript-action@master
        with:
          who-to-greet: John
      - name: Log Greeting Time
