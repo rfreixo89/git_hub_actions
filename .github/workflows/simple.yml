@@ -13,8 +13,15 @@ jobs:
         run: |
           node -v
           npm -v
-      - name: Python cmg
+      - name: Python cmd
         run: |
           import platform
           print(platform.processor())
         shell: python
+  run-windows-commands:
+    runs-on: windows-latest
+    steps:
+      - name: directoty powersheel
+        run: Get-Location
+      - name: pwd
+        shell: bash
