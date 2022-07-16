@@ -21,7 +21,8 @@ jobs:
   run-windows-commands:
     runs-on: windows-latest
     steps:
-      - name: directoty powersheel
+      - name: directory PowerShell
         run: Get-Location
-      - name: pwd
+      - name: Directoty bash
+        run: pwd
         shell: bash
